@@ -1,0 +1,192 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="L0M2-iQ_iWaDpED3e2Ev">
+    <mxGraphModel dx="1393" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GuODVntkHXCPUdb1Q74V-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-1" target="GuODVntkHXCPUdb1Q74V-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-1" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="60" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-2" target="GuODVntkHXCPUdb1Q74V-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-2" value="Declarations&lt;div&gt;&amp;nbsp; &amp;nbsp; string customer_last_name&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num bathrooms_to_clean&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num other_rooms_to_clean&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num cleaning_cost_bathrooms&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num cleaning_cost_other_rooms&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num cleaning_cost_total&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" parent="1" vertex="1">
+          <mxGeometry x="230" y="160" width="200" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-6" target="GuODVntkHXCPUdb1Q74V-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-6" value="output &lt;br&gt;&quot;Please enter the customer&#39;s last name.&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="320" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-8" target="GuODVntkHXCPUdb1Q74V-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-8" value="input&lt;br&gt;customer_last_name" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="440" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-10" target="GuODVntkHXCPUdb1Q74V-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-10" value="output&lt;br&gt;&quot;Please enter the number of bathrooms to be cleaned for &quot;&lt;br&gt;+ customer_last_name" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="560" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-12" target="GuODVntkHXCPUdb1Q74V-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-12" value="input&lt;br&gt;bathrooms_to_clean" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="680" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-14" target="GuODVntkHXCPUdb1Q74V-29" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-14" value="" style="whiteSpace=wrap;html=1;align=left;strokeWidth=2;shape=swimlane;fontStyle=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="230" y="310" width="200" height="80" as="geometry">
+            <mxRectangle x="20" y="340" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-17" value="input_customer_info()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GuODVntkHXCPUdb1Q74V-14" vertex="1">
+          <mxGeometry x="30" y="38" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="GuODVntkHXCPUdb1Q74V-18" target="GuODVntkHXCPUdb1Q74V-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-18" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;input_customer_info()&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="505" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-21" target="GuODVntkHXCPUdb1Q74V-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-21" value="output&lt;br&gt;&quot;Please enter the number of&lt;br&gt;other rooms than bathrooms to&lt;br&gt;&amp;nbsp;be cleaned for &quot;&lt;br&gt;+ customer_last_name&amp;nbsp;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="800" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-23" target="GuODVntkHXCPUdb1Q74V-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-23" value="input&lt;br&gt;other_rooms_to_clean" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="920" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-25" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;return&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="505" y="1040" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-29" target="GuODVntkHXCPUdb1Q74V-42" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-29" value="" style="whiteSpace=wrap;html=1;align=left;strokeWidth=2;shape=swimlane;fontStyle=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="230" y="420" width="200" height="80" as="geometry">
+            <mxRectangle x="20" y="340" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-30" value="calculate_charges()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GuODVntkHXCPUdb1Q74V-29" vertex="1">
+          <mxGeometry x="35" y="38" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-32" target="GuODVntkHXCPUdb1Q74V-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-32" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;calculate_charges()&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="727.5" y="200.36" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-33" target="GuODVntkHXCPUdb1Q74V-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-33" value="cleaning_cost_bathrooms =&lt;br&gt;&lt;div&gt;bathrooms_to_clean * 15&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=label;fixedSize=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="722.5" y="328.36" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-35" target="GuODVntkHXCPUdb1Q74V-37" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-35" value="cleaning_cost_other_rooms =&lt;br&gt;&lt;div&gt;other_rooms_to_clean * 10&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=label;fixedSize=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="722.5" y="450.36" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-37" target="GuODVntkHXCPUdb1Q74V-39" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-37" value="cleaning_cost_total =&lt;br&gt;cleaning_cost_bathrooms&lt;div&gt;+ cleaning_cost_other_rooms&lt;/div&gt;&lt;div&gt;+ 40&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=label;fixedSize=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="722.5" y="568.36" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-39" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;return&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="727.5" y="690.36" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-41" target="GuODVntkHXCPUdb1Q74V-45" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-41" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;display_charges()&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="955" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-42" value="" style="whiteSpace=wrap;html=1;align=left;strokeWidth=2;shape=swimlane;fontStyle=1;startSize=23;" parent="1" vertex="1">
+          <mxGeometry x="230" y="528" width="200" height="80" as="geometry">
+            <mxRectangle x="20" y="340" width="50" height="40" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-43" value="display_charges()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="GuODVntkHXCPUdb1Q74V-42" vertex="1">
+          <mxGeometry x="40" y="38" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-45" target="GuODVntkHXCPUdb1Q74V-47" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-45" value="output&lt;br&gt;&quot;Cleaning charges for &quot;&amp;nbsp;&lt;div&gt;+ customer_last_name&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="932.5" y="320" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-47" target="GuODVntkHXCPUdb1Q74V-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-47" value="output&lt;br&gt;&quot;Charge to clean &quot;&lt;div&gt;+ bathrooms_to_clean&lt;br&gt;+ &quot;bathrooms: $&quot;&lt;br&gt;+ cleaning_cost_bathrooms&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="932.5" y="442" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-51" target="GuODVntkHXCPUdb1Q74V-53" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-51" value="output&lt;br&gt;&quot;Charge to clean &quot;&lt;div&gt;+ other_rooms_to_clean&lt;br&gt;+ &quot;other rooms: $&quot;&lt;br&gt;+ cleaning_cost_other_rooms&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="932.5" y="560" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-53" target="GuODVntkHXCPUdb1Q74V-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-53" value="output&lt;br&gt;&lt;div&gt;&quot;Total: $&quot; + cleaning_cost_total&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=center;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="932.5" y="680" width="195" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-55" value="&lt;span style=&quot;text-wrap: nowrap;&quot;&gt;return&lt;/span&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="955" y="810" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-57" target="GuODVntkHXCPUdb1Q74V-61" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-57" value="output&lt;br&gt;&quot;Program Complete&quot;" style="whiteSpace=wrap;html=1;shape=parallelogram;perimeter=parallelogramPerimeter;fixedSize=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="661" width="220" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GuODVntkHXCPUdb1Q74V-43" target="GuODVntkHXCPUdb1Q74V-57" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-61" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="280" y="770" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q_QOFpaAoHDdP9-02Fwl-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;dashed=1;dashPattern=1 3;strokeWidth=2;" parent="1" source="GuODVntkHXCPUdb1Q74V-63" target="GuODVntkHXCPUdb1Q74V-41" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-63" value="Displays the fees in this format:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; Cleaning charges for LASTNAME&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; Charge to clean X bathrooms: $Y&lt;br&gt;&amp;nbsp; &amp;nbsp; Charge to clean X other rooms: $Y&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&amp;nbsp; &amp;nbsp; Total: $Y&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="927" y="30" width="205" height="107.38" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-66" value="Calculates a fee of&amp;nbsp;&lt;div&gt;$15 per bathroom,&lt;/div&gt;&lt;div&gt;$10 for other rooms,&lt;/div&gt;&lt;div&gt;and a combined total&lt;br&gt;&amp;nbsp;with a $40 surcharge&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="710" y="40" width="185" height="88.1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="GuODVntkHXCPUdb1Q74V-66" target="GuODVntkHXCPUdb1Q74V-66" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GuODVntkHXCPUdb1Q74V-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;dashed=1;dashPattern=1 3;strokeWidth=2;" parent="1" source="GuODVntkHXCPUdb1Q74V-66" target="GuODVntkHXCPUdb1Q74V-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_QOFpaAoHDdP9-02Fwl-2" value="This is a program to calculate cleaning charges for&amp;nbsp;&lt;div&gt;a housecleaning service.&amp;nbsp;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="15" y="30" width="205" height="107.38" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

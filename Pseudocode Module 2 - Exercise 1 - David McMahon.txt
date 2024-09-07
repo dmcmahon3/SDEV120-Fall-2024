@@ -1,0 +1,32 @@
+// This program will calculate and print the capacity of a
+// refrigerator model in cubic feet based on its internal dimensions.
+
+start
+    Declarations
+	    string refrigerator_model
+	    num interior_height_inches
+	    num interior_width_inches
+	    num interior_depth_inches
+		num capacity_cubic_inches
+	    num capacity_cubic_feet
+		
+	// The user is prompted to enter the model number and internal dimensions.
+	
+	output "What is the model number of the refrigerator?"
+	input refrigerator_model
+	output "In inches, please enter the interior height of " + refrigerator_model
+	input interior_height_inches
+	output "In inches, please enter the interior width of " + refrigerator_model
+	input interior_width_inches
+	output "In inches, please enter the interior depth of " + refrigerator_model
+	input interior_depth_inches
+	
+	// The capacity in cubic inches is calculated and converted to cubic 
+	// feet, which is then displayed alongside the model number.
+	
+	capacity_cubic_inches = (interior_depth_inches * interior_height_inches
+	                          *interior_width_inches)
+	capacity_cubic_feet = capacity_cubic_inches / 1728
+	output refrigerator_model + " has an internal capacity of"
+	output capacity_cubic_feet + " cubic feet."
+stop

@@ -1,0 +1,24 @@
+// This program determines the monthly fee for a checking account,
+// deducts it, and calculates the new balance.
+
+start
+    Declarations
+	    num account_balance
+		num overdrawn_instances
+	    num overdrawn_fee
+	input account_balance
+	input overdrawn_instances
+	
+// If the account was overdrawn, a fee equal to 1 percent of the balance
+// plus 5 dollars for each time it was overdrawn will be deducted.
+	
+	overdrawn_fee = (account_balance / 100) + (overdrawn_instances * 5)
+	account_balance = account_balance - overdrawn_fee
+	
+// The monthly fee and new account balance are displayed.
+
+    output "A fee of" + overdrawn_fee + " was deducted from your account."
+	output "Your new balance is " + account_balance
+	output "Thanks for using this program"
+stop
+	

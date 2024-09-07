@@ -1,0 +1,112 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="s3L-btYn44wDV7lQ9AKe">
+    <mxGraphModel dx="1098" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SywsNwHquTh32yqQg8dh-3" value="This program will calculate and display the estimated cost of a remodeling project based on projected labor and materials purchased with a 20% margin." style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="190" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-4" target="SywsNwHquTh32yqQg8dh-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-4" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="85" y="210" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-5" target="SywsNwHquTh32yqQg8dh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-5" value="Declarations&lt;div&gt;&amp;nbsp; &amp;nbsp; num labor_hourly_rate = 30&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num labor_cost&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num projected_hours&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num materials_wholesale&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num materials_retail&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; num total_cost_estimate&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;align=left;" vertex="1" parent="1">
+          <mxGeometry x="45" y="320" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-7" target="SywsNwHquTh32yqQg8dh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-7" value="" style="whiteSpace=wrap;html=1;align=left;strokeWidth=2;shape=swimlane;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="490" width="195" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-9" value="input_job_info()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="76.5" y="532.5" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-10" target="SywsNwHquTh32yqQg8dh-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-10" value="" style="whiteSpace=wrap;html=1;align=left;strokeWidth=2;shape=swimlane;fontStyle=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="650" width="195" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-12" value="calculate_estimated_cost()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="688" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-13" target="SywsNwHquTh32yqQg8dh-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-13" value="input_job_info()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="365" y="320" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-14" target="SywsNwHquTh32yqQg8dh-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-14" value="output&lt;br&gt;&quot;How many hours is this project expected to take?&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=parallelogram;fixedSize=1;rounded=0;perimeter=parallelogramPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="320" y="420" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-17" target="SywsNwHquTh32yqQg8dh-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-17" value="input&lt;div&gt;projected_hours&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=parallelogram;fixedSize=1;rounded=0;perimeter=parallelogramPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="320" y="542.5" width="190" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-20" target="SywsNwHquTh32yqQg8dh-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-20" value="output&lt;br&gt;&quot;What will the wholesale cost of building materials be?&quot;" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=parallelogram;fixedSize=1;rounded=0;perimeter=parallelogramPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="320" y="655" width="190" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-22" target="SywsNwHquTh32yqQg8dh-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-22" value="input&lt;br&gt;materials_wholesale" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=parallelogram;fixedSize=1;rounded=0;perimeter=parallelogramPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="320" y="780" width="190" height="72.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-24" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="365" y="900" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-26" target="SywsNwHquTh32yqQg8dh-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-26" value="calculate_estimated_cost()" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="320" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-30" target="SywsNwHquTh32yqQg8dh-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-30" value="labor_cost =&amp;nbsp;&lt;div&gt;labor_hourly_rate&amp;nbsp;&lt;/div&gt;&lt;div&gt;* projected_hours&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=label;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="420" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-35" target="SywsNwHquTh32yqQg8dh-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-35" value="materials_retail =&amp;nbsp;&lt;div&gt;materials_wholesale * 1.2&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=label;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="542.5" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-37" target="SywsNwHquTh32yqQg8dh-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-37" value="total_cost_estimate =&lt;div&gt;labor_cost + materials_retail&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;shape=label;fixedSize=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="555" y="655" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-39" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="600" y="780" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="SywsNwHquTh32yqQg8dh-41" target="SywsNwHquTh32yqQg8dh-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-41" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;output&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&quot;Estimated remodeling cost: $&quot;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;+ total_cost_estimate&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;strokeWidth=2;shape=parallelogram;fontStyle=1;startSize=23;rounded=0;perimeter=parallelogramPerimeter;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="37.5" y="827.5" width="195" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="SywsNwHquTh32yqQg8dh-43" value="stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="84.5" y="980" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
