@@ -1,0 +1,78 @@
+// This pseudocode outlines logic to merge two sets of customer records
+// (stored in Geralds Businesses.csv and Geraldines Businesses.csv)
+// and output them to a new file.
+
+start
+    Declarations
+        InputFile geraldsFile
+        InputFile dinesFile
+        OutputFile mergedFile
+        str geraldsId
+        str geraldsLastName
+        str geraldsCity
+        num geraldsPropertySize
+        str dinesId
+        str dinesLastName
+        str dinesCity
+        num dinesPropertySize
+        str END_ID = "ZZZZ"
+        str areBothAtEnd = "N"
+    
+    prepMergeLoop()
+    while areBothAtEnd <> "Y"
+        mergeRecords()
+    endwhile
+    closeFiles()
+stop
+
+prepMergeLoop()
+    open geraldsFile "Geralds Businesses.csv"
+    open dinesFile "Geraldines Businesses.csv"
+    open mergedFile "Gerald and Geraldines Businesseses.csv"
+    readGeralds()
+    readDines()
+    checkEnd()
+return
+
+readGeralds()
+    input geraldsId, geraldsLastName, geraldsCity, geraldsPropertySize
+        from geraldsFile
+    if eof then
+        geraldsId = END_ID
+    endif
+return
+
+readDines()
+    input dinesId, dinesLastName, dinesCity, dinesPropertySize
+        from dinesFile
+    if eof then
+        dinesId = END_ID
+    endif
+return
+
+checkEnd()
+    if geraldsId = END_ID then
+        if dinesId = END_ID then
+            areBothAtEnd = "Y"
+        endif
+    endif
+return
+
+mergeRecords()    
+    if geraldsId < dinesId then
+        output geraldsId, geraldsLastName, geraldsCity, geraldsPropertySize
+            to mergedFile
+        readGeralds()
+    else
+        output dinesId, dinesLastName, dinesCity, dinesPropertySize
+            to mergedFile
+        readDines()
+    endif
+    checkEnd()
+return
+
+closeFiles()
+    close geraldsFile
+    close dinesFile
+    close mergedFile
+return
